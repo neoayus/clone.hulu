@@ -34,6 +34,48 @@
       background-color: rgb(0,0,0,0.5);
       position: absolute ; 
       z-index: 0;
+   }
+}
 
+.bg .header{
+   height: 11vh ; 
+   
+   display: flex; 
+   justify-content: space-between ;
+   align-items: center ;
+}
+
+.bg .header .head-logo{
+   height: 1.5rem ; 
+   width: 2.5rem  ; 
+   background-image: url('./assets/01_9b6c8f49-fd17-46b8-812f-bd3dc7e8f269.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   
+ /* to paint the black logo green.  */
+   filter: invert(1) sepia(1) saturate(10000%) hue-rotate(68deg);
+   
+   margin-left: 2rem ; 
+}
+
+.bg .header .head-login-btn{
+   height: 1.5rem ;
+   width: 4rem ;
+
+   font-size: .7rem ; 
+   font-weight: 700;
+
+   color: rgba(142, 142, 142, 0.504) ; 
+   background-color: transparent;
+
+   border: none ; 
+   border-radius: .24rem ; 
+   padding : .2rem ;
+   margin-right: 2rem ; 
+   
+ /* on hover changes  */
+   &:hover{
+      background-color: rgba(155, 154, 154, 0.51);
+      transition: 0.5s ease ;
    }
 }
