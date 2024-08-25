@@ -1,0 +1,15 @@
+/* importing `inter` font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Universal Changes  */
+*{
+   border: 0 ; 
+   padding: 0 ; 
+   margin: 0 ; 
+   
+   box-sizing: border-box ; 
+   font-family: 'inter' ;
+   
+   position: relative ; 
+   z-index: 1; 
+}
