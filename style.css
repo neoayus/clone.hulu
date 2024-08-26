@@ -176,8 +176,9 @@
 .strip-one{
    height: 10.3rem; 
    width : 100vw ;
-   
-   background-color: black ; 
+ 
+ /* adding gradient  */
+   background: linear-gradient(to right, #081722, #0E4556 );
    color: white;  
    
    display: flex ; 
