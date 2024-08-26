@@ -261,32 +261,109 @@
    background: linear-gradient(to bottom, #28A366, #16191D); 
    padding: 30px 40px 30px 44px ; 
 }
-.strip-two .s-two-text{
-   font-weight: 700 ; 
-   font-size: 1.25rem ; 
-   
-   color: white ; 
-   
-   margin-bottom: 10px ; 
-}
-.strip-two .s-two-btn{
-   height: 2.875rem ; 
-   width: 18rem ;
+   .strip-two .s-two-text{
+      font-weight: 700 ; 
+      font-size: 1.25rem ; 
+      
+      color: white ; 
+      
+      margin-bottom: 10px ; 
+   }
+   .strip-two .s-two-btn{
+      height: 2.875rem ; 
+      width: 18rem ;
 
-   font-size: .875rem ; 
-   font-weight: 700;
+      font-size: .875rem ; 
+      font-weight: 700;
+
+      color: white ;
+      background: transparent ;
+      border: 2.5px solid white ;
+      border-radius: 4px  ;
+      
+      &:hover{
+         border: none ; 
+         
+         color: black ; 
+         background-color: rgba(164, 164, 164, 0.601) ;
+
+         transition: .5s ease-out; 
+      }
+   }
+   
+.tv{
+   height: 1535px ;
+   width: 100vw ; 
+
+   background-color: black ; 
+}
+.tv .text-box.one {
+   display: flex ; 
+   flex-direction: column ; 
+   justify-content: center ; 
+   align-items: center;
+   
+   padding: 80px 20px 50px  ; 
+}
+
+/* MODIFY TEXT  */
+.green{
+   color: #1ce783; 
+   font-weight: 700 ; 
+   font-size: 13.33px ;    
+}
+.heading{
+   font-size: 3.75rem ; 
+   font-weight: 700 ; 
+   color: white;  
+   
+   margin:  16px 0 ; 
+}
+.text{
+   color: rgb(205, 205, 205) ; 
+   text-align: center ;
+   
+   padding-top: 1rem ; 
+}
+
+/* CARDS  */
+.shows{
+   display: flex ; 
+   justify-content: space-evenly;
+   margin: 0 90px ; 
+}
+.shows .card{
+   height: 453px ; 
+   width: 296px ; 
+
+   background-size: contain ; 
+   background-repeat: no-repeat ; 
 
    color: white ;
-   background: transparent ;
-   border: 2.5px solid white ;
-   border-radius: 4px  ;
+   font-weight: 700;
    
-   &:hover{
-      border: none ; 
+   border-radius: 12px ; 
+   
+   &::before{
+      content: '' ; 
+      top: 0 ; 
+      bottom: 0 ; 
       
-      color: black ; 
-      background-color: rgba(164, 164, 164, 0.601) ;
-
-      transition: .5s ease-out; 
+      height: 100% ;
+      width: 100%; 
+      background-color: rgb(0,0,0,0.4);
+      position: absolute ; 
+      z-index:1 ; 
    }
 }
+
+.card .title{
+   padding: 25px ;
+}
+   .card .title .sub-title{
+      font-size: 1rem ;
+   }
+   .card .title .main-title{
+      font-size: 26px ;    
+      padding: 8px 0px ;
+   }
