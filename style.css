@@ -46,8 +46,8 @@
 }
 
 .bg .header .head-logo{
-   height: 1.5rem ; 
-   width: 2.5rem  ; 
+   height: 3rem ; 
+   width: 4rem  ; 
    background-image: url('./assets/01_9b6c8f49-fd17-46b8-812f-bd3dc7e8f269.svg');
    background-repeat: no-repeat;
    background-size: contain;
@@ -55,23 +55,23 @@
  /* to paint the black logo green.  */
    filter: invert(1) sepia(1) saturate(10000%) hue-rotate(68deg);
    
-   margin-left: 2rem ; 
+   margin-left: 2.5rem ; 
 }
 
 .bg .header .head-login-btn{
-   height: 1.5rem ;
-   width: 4rem ;
+   height: 2.4rem ;
+   width: 5.5rem ;
 
-   font-size: .7rem ; 
+   font-size: 1rem ; 
    font-weight: 700;
 
-   color: rgba(142, 142, 142, 0.504) ; 
+   color: rgba(210, 210, 210, 0.718) ; 
    background-color: transparent;
 
-   border: none ; 
-   border-radius: .24rem ; 
-   padding : .2rem ;
-   margin-right: 2rem ; 
+   border-radius: .4rem ; 
+   /* padding : .2rem ; */
+
+   margin-right: 2.5rem ; 
    
  /* on hover changes  */
    &:hover{
