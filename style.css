@@ -402,3 +402,183 @@
    opacity: 0.7 ; 
    text-decoration: underline ; 
 }
+.left-arrow{
+   background-image: url('./assets/');
+}
+
+ /* DESIGNING THE SECTION FOR SPORTS SECTION  */
+.sportstv{  
+   height: 870px ;
+   background-image: url('./assets/11_original.jpeg'); 
+   background-size: cover ; 
+   background-repeat: no-repeat ; 
+   
+   &::before{
+      content : '' ; 
+      top : 0 ; 
+      left: 0 ; 
+      height: 100% ; 
+      width: 100% ; 
+      background: rgb(0,0,0,0.4);      
+      position: absolute ; 
+      z-index: 1 ;
+   }
+}
+
+.sportstv .content {
+   padding: 230px 0 190px;  
+   margin: 0 174px ; 
+}
+
+.sportstv .content .st-tab{
+   display: flex; 
+}
+
+.sportstv .content .st-tab .opt{
+   color: white ;
+   font-size: .7rem ;
+   font-weight: 700;
+   margin-right: 35px ;
+}
+
+.sportstv .content .st-container{
+
+}
+.sportstv .content .st-container .container-heading{
+   color: white; 
+   font-size: 47px ; 
+   font-weight: 700 ; 
+   
+   margin : 20px 0  20px ; 
+}
+.sportstv .content .st-container .container-text{
+   color: white; 
+   font-size: 18px ; 
+   font-weight: 400 ; 
+}
+
+.sportstv .content .st-container .icons{
+   width: 381px; 
+   height: 75px ; 
+   
+   display: flex ; 
+   
+}
+
+ /* CSS FOR ALL THE CIRCLES  */
+.sportstv .content .st-container .icons .w-circ{
+   /* height: 55px ; 
+   width : 55px ; 
+   
+   background-color: pink;
+   border-radius: 50% ; 
+   margin: 23px 17px 0 0 ; 
+   
+   &::before{
+      content : '' ; 
+      top: 0 ; 
+      left: 0 ; 
+      height: 100% ;
+      width : 100%; 
+      background-color: white; 
+      position : absolute ; 
+      z-index: 1; 
+      background-size: contain ; 
+      background-repeat: no-repeat ; 
+      background-position: center;
+   }    */
+ /* CHANGING THE CSS FOREVER  */
+   height: 55px ; 
+   width : 55px ; 
+      background-size: contain ; 
+      background-repeat: no-repeat ; 
+      background-position: center;
+   border-radius: 50% ; 
+   margin: 23px 17px 0 0 ; 
+   position: relative ; 
+
+ /* setting background to be white for all the divs */
+ /* doing this allows me to set the bg:white for all the divs and i have to change the circle in all the imageas only.  */
+   content: '' ; 
+   top: 0 ; 
+   left: 0 ; 
+   height: 55px ; 
+   width: 55px; 
+   background-color : white; 
+   position : relative ;
+   z-index: 1 ; 
+   border-radius: 50% ; 
+}
+
+/* changing image in every circle  */
+
+.st-container .icons .w-circ.one{
+      background-image: url('./assets/47_original.png');
+}
+.st-container .icons .w-circ.two{
+      background-image: url('./assets/65_original.png');
+}
+.st-container .icons .w-circ.three{
+      background-image: url('./assets/57_original.png');
+}
+.st-container .icons .w-circ.four{
+      background-image: url('./assets/49_original.png');
+}
+.st-container .icons .w-circ.five{
+      background-image: url('./assets/10_original.webp');
+}
+
+ /* footer  */
+footer{
+   height: 493px ;
+   width: 100vw ; 
+      background-color: rgb(223, 223, 223) ;
+}
+
+footer .lists{
+   display: flex; 
+   justify-content: space-evenly ;  
+      font-size: .9rem ;
+      font-weight: 300;
+         padding: 52px 46px 85px ;
+}
+
+footer .lists ul{
+  list-style-type: none ; 
+}
+   footer .lists ul li{
+      padding-top: 8px;
+   }
+footer hr{
+   border: none ; 
+   border-top: solid 1px rgb(186, 186, 186) ; 
+   width: 80vw ; 
+   margin: 0 auto ;
+}
+
+/* SOCIAL MEDIA ICONS  */
+footer .socials{
+   height: 31px ;
+   width: 168px ; 
+      display: flex; 
+      margin: 52px 144px ; 
+}
+footer .socials .icon{
+   width: 25px ; 
+   height: 25px ; 
+   background-position: center ;
+   background-size: contain; 
+   background-repeat: no-repeat; 
+      margin : 0 9px; 
+}
+
+footer .foot-nav{
+
+}
+footer .foot-nav ul{
+  list-style-type: none ; 
+  font-size: .8rem ;
+  display: flex; 
+  justify-content: space-evenly ;
+  padding: 0 130px ; 
+}
