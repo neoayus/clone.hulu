@@ -292,10 +292,11 @@
    }
    
 .tv{
-   height: 1535px ;
+   height: 1331px ;
    width: 100vw ; 
 
-   background-color: black ; 
+   background-color: rgb(11,12,15) ; 
+   padding-bottom: 70px ;
 }
 .tv .text-box.one {
    display: flex ; 
@@ -320,7 +321,7 @@
    margin:  16px 0 ; 
 }
 .text{
-   color: rgb(205, 205, 205) ; 
+   color: rgb(255, 255, 255) ; 
    text-align: center ;
    
    padding-top: 1rem ; 
@@ -330,7 +331,7 @@
 .shows{
    display: flex ; 
    justify-content: space-evenly;
-   margin: 0 90px ; 
+   margin: 0 100px 100px 0 ; 
 }
 .shows .card{
    height: 453px ; 
@@ -367,3 +368,37 @@
       font-size: 26px ;    
       padding: 8px 0px ;
    }
+
+.text-box.two{
+   color: white ;
+   
+   display: flex; 
+   flex-direction: column ; 
+   align-items: center;
+   justify-content: center;
+}
+
+.text-box.two .btn{
+   height: 2.93rem ; 
+   
+   color: black ;
+   font-size: .85rem ;  
+   font-weight: 700;
+   background-color: #1ce783; 
+
+   padding: 0 2rem ; 
+   border-radius: .3rem;
+   margin: 20px 0 ; 
+}
+.text-box.two .disc{
+   font-size: 10px; 
+   color: rgba(195, 195, 195, 0.74) ; 
+   text-align: center ;
+   margin-bottom: 30px ; 
+}
+.text-box.two .vc{
+   font-size: 1rem ; 
+   font-weight: 700 ;
+   opacity: 0.7 ; 
+   text-decoration: underline ; 
+}
